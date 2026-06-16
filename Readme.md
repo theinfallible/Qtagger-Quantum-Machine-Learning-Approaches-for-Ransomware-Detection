@@ -40,7 +40,7 @@ To run the notebooks locally, we recommend setting up a virtual environment (Ana
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YourUsername/Qtagger-Quantum-Machine-Learning-Approaches-for-Ransomware-Detection.git](https://github.com/YourUsername/Qtagger-Quantum-Machine-Learning-Approaches-for-Ransomware-Detection.git)
+git clone https://github.com/YourUsername/Qtagger-Quantum-Machine-Learning-Approaches-for-Ransomware-Detection.git
 cd Qtagger-Quantum-Machine-Learning-Approaches-for-Ransomware-Detection
 
 # Create and activate a virtual environment
@@ -49,18 +49,18 @@ conda activate qtagger_env
 
 # Install required dependencies
 pip install -r requirements.txt
-Note: GPU acceleration requires a CUDA-compatible NVIDIA GPU and the lightning.qubit plugin configured for PennyLane.
-'''
+# Note: GPU acceleration requires a CUDA-compatible NVIDIA GPU and the lightning.qubit plugin configured for PennyLane.
+```
 
-Datasets
+### Datasets
 Due to storage constraints and licensing, the full RANSAP, RANSMAP, and MLRAN datasets are not hosted directly in this repository.
 
 You can request access to the original datasets from their respective authors as cited in the paper.
 
-Place the downloaded .npy or .csv arrays inside the data/ directory before executing the notebooks.
+Place the downloaded `.npy` or `.csv` arrays inside the `data/` directory before executing the notebooks.
 
-Citation
+### Citation
 If you utilize this codebase or our HQAN methodology in your research, please cite our paper:
 
-Acknowledgments
+### Acknowledgments
 Supported by the QIntern 2025 program. Special thanks to Dr. Simranjit Singh (NIT Jalandhar) and Dr. Mohit Sajwan (NSUT Delhi).
